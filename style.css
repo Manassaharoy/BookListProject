@@ -1,0 +1,42 @@
+.bgimg {
+    max-height: 100vh;
+    margin-top: 10vh;
+    
+    background-image: url("./image/bg1.png");
+    /* background-color: #1B4F72; */
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-attachment: fixed;
+    
+     
+
+}
+
+.bgrd{
+    background-image: linear-gradient(120deg, #ffffff6e, #4b62e585);
+    /* background-image: linear-gradient(120deg, #EBF5FB, #85C1E9); */
+    /* background-image: url("./image/bg1.png"); */
+    padding: 50px;
+    border-radius: 20px;
+}
+
+#heading {
+    margin-bottom: 50px;
+text-align: center;
+font-weight: bolder;
+color: #000000;
+}
+
+.success, .error {
+    color: white;
+    padding: 5px;
+    margin: 5px 0 15px 0;
+}
+
+.success {
+    background: green;
+}
+
+.error {
+    background: red;
+}
